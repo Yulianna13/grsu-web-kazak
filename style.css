@@ -1,41 +1,13 @@
-body{
-	display: grid;
-	grid-template-areas: 
-	"header header "
-	" nav article "
-	"footer footer";
-	grid-template-rows:  60px 1fr;
-	grid-template-columns: 20%  1fr ;
-	grid-gap: 10px;
-	height: 100vh;
-	margin: 0;
-}
-@media all and (max-width: 575px){
-body{
-	grid-template-areas: 
-	"header "
-	" article "
-	"nav"
-	"footer ";
-	grid-template-rows:  80px 1fr 70px 1fr 70px;
-	grid-template-columns:   1fr   ;
-	
-}	
-}
-header, footer, article,nav, div{
-	padding: 20px;
-	background: lightgrey;
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
 
-}
-#Header {
-	grid-area: header;
-}
-#Footer {
-	grid-area: footer;
-}
-#mainArticle{
-	grid-area: article;
-}
-#mainNav{
-	grid-area: nav;
-}
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
